@@ -16,10 +16,14 @@
 
 package org.springframework.security.oauth.common.signature;
 
-import org.apache.commons.codec.binary.Base64;
-
 import java.io.UnsupportedEncodingException;
-import java.security.*;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.security.PrivateKey;
+import java.security.PublicKey;
+import java.security.Signature;
+import java.security.SignatureException;
+import org.apache.commons.codec.binary.Base64;
 
 /**
  * RSA-SHA1 signature method. The RSA-SHA1 signature method uses the RSASSA-PKCS1-v1_5 signature algorithm as defined in RFC3447

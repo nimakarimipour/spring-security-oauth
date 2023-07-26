@@ -1,13 +1,12 @@
 package org.springframework.security.oauth.config;
 
+import java.util.Map;
 import org.springframework.beans.factory.BeanFactoryUtils;
 import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.config.AbstractFactoryBean;
 import org.springframework.security.oauth.consumer.InMemoryProtectedResourceDetailsService;
 import org.springframework.security.oauth.consumer.ProtectedResourceDetails;
 import org.springframework.security.oauth.consumer.ProtectedResourceDetailsService;
-
-import java.util.Map;
 
 /**
  * Factory bean for the resource details service.

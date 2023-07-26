@@ -16,6 +16,19 @@
 
 package org.springframework.security.oauth.provider.filter;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.InitializingBean;
@@ -29,7 +42,11 @@ import org.springframework.security.core.SpringSecurityMessageSource;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth.common.OAuthConsumerParameter;
 import org.springframework.security.oauth.common.OAuthException;
-import org.springframework.security.oauth.common.signature.*;
+import org.springframework.security.oauth.common.signature.CoreOAuthSignatureMethodFactory;
+import org.springframework.security.oauth.common.signature.OAuthSignatureMethod;
+import org.springframework.security.oauth.common.signature.OAuthSignatureMethodFactory;
+import org.springframework.security.oauth.common.signature.SignatureSecret;
+import org.springframework.security.oauth.common.signature.UnsupportedSignatureMethodException;
 import org.springframework.security.oauth.provider.ConsumerAuthentication;
 import org.springframework.security.oauth.provider.ConsumerCredentials;
 import org.springframework.security.oauth.provider.ConsumerDetails;
@@ -44,15 +61,6 @@ import org.springframework.security.oauth.provider.nonce.OAuthNonceServices;
 import org.springframework.security.oauth.provider.token.OAuthProviderToken;
 import org.springframework.security.oauth.provider.token.OAuthProviderTokenServices;
 import org.springframework.util.Assert;
-
-import javax.servlet.*;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
 
 /**
  * OAuth processing filter. This filter should be applied to requests for OAuth protected resources (see OAuth Core 1.0).

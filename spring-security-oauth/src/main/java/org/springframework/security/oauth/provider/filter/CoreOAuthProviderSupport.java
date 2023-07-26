@@ -16,17 +16,24 @@
 
 package org.springframework.security.oauth.provider.filter;
 
-import org.apache.commons.codec.DecoderException;
 import static org.springframework.security.oauth.common.OAuthCodec.oauthDecode;
 import static org.springframework.security.oauth.common.OAuthCodec.oauthEncode;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+import java.util.SortedMap;
+import java.util.SortedSet;
+import java.util.TreeMap;
+import java.util.TreeSet;
+import javax.servlet.http.HttpServletRequest;
+import org.apache.commons.codec.DecoderException;
 import org.springframework.security.oauth.common.OAuthConsumerParameter;
 import org.springframework.security.oauth.common.StringSplitUtils;
 import org.springframework.security.oauth.provider.OAuthProviderSupport;
-
-import javax.servlet.http.HttpServletRequest;
-import java.util.*;
-import java.net.URL;
-import java.net.MalformedURLException;
 
 /**
  * Utility for common logic for supporting an OAuth provider.

@@ -2,7 +2,6 @@ package org.springframework.security.oauth.provider.expression;
 
 import java.util.List;
 import java.util.Set;
-
 import org.aopalliance.intercept.MethodInvocation;
 import org.springframework.core.convert.TypeDescriptor;
 import org.springframework.expression.AccessException;

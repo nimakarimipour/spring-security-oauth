@@ -15,20 +15,17 @@
  */
 package org.springframework.security.oauth.provider.filter;
 
-import org.springframework.security.web.DefaultRedirectStrategy;
-import org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler;
-import org.springframework.security.core.Authentication;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.ServletException;
-import java.io.IOException;
-
 import static org.springframework.security.oauth.provider.filter.UserAuthorizationProcessingFilter.CALLBACK_ATTRIBUTE;
 import static org.springframework.security.oauth.provider.filter.UserAuthorizationProcessingFilter.VERIFIER_ATTRIBUTE;
-
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.web.DefaultRedirectStrategy;
+import org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler;
 
 /**
  * Successful AuthenticationHandler that gets called when a user complete authorization of a resource.

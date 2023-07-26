@@ -1,5 +1,10 @@
 package org.springframework.security.oauth.consumer.client;
 
+import java.io.IOException;
+import java.net.URI;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.client.ClientHttpRequest;
 import org.springframework.http.client.ClientHttpRequestFactory;
@@ -10,12 +15,6 @@ import org.springframework.security.oauth.consumer.OAuthSecurityContextHolder;
 import org.springframework.security.oauth.consumer.OAuthSecurityContextImpl;
 import org.springframework.security.oauth.consumer.ProtectedResourceDetails;
 import org.springframework.util.CollectionUtils;
-
-import java.io.IOException;
-import java.net.URI;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Request factory that extends all http requests with the OAuth credentials for a specific protected resource.

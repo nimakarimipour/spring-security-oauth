@@ -16,8 +16,8 @@
 
 package org.springframework.security.oauth.consumer;
 
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Basic, in-memory implementation of a protected resource details service.

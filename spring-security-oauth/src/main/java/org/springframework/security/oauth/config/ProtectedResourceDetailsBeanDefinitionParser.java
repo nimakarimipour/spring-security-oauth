@@ -16,19 +16,17 @@
 
 package org.springframework.security.oauth.config;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser;
 import org.springframework.beans.factory.xml.ParserContext;
 import org.springframework.security.oauth.common.signature.HMAC_SHA1SignatureMethod;
-import org.springframework.security.oauth.common.signature.SharedConsumerSecret;
 import org.springframework.security.oauth.consumer.BaseProtectedResourceDetails;
 import org.springframework.util.StringUtils;
 import org.springframework.util.xml.DomUtils;
 import org.w3c.dom.Element;
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 /**
  * <p>

@@ -16,10 +16,9 @@
 
 package org.springframework.security.oauth.provider;
 
-import org.springframework.security.oauth.common.OAuthException;
-
 import java.util.HashMap;
 import java.util.Map;
+import org.springframework.security.oauth.common.OAuthException;
 
 /**
  * Basic, in-memory implementation of the consumer details service.

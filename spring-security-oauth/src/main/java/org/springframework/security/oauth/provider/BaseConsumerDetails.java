@@ -18,7 +18,6 @@ package org.springframework.security.oauth.provider;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.oauth.common.signature.SignatureSecret;
 

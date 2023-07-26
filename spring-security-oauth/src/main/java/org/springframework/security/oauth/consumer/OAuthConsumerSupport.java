@@ -17,8 +17,8 @@
 package org.springframework.security.oauth.consumer;
 
 
-import java.net.URL;
 import java.io.InputStream;
+import java.net.URL;
 import java.util.Map;
 
 /**

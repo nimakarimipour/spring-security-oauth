@@ -16,14 +16,17 @@
 
 package org.springframework.security.oauth.provider.token;
 
-import org.springframework.security.core.AuthenticationException;
-import org.springframework.security.core.Authentication;
+import java.security.SecureRandom;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Random;
+import java.util.UUID;
+import org.apache.commons.codec.binary.Base64;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.apache.commons.codec.binary.Base64;
-
-import java.util.*;
-import java.security.SecureRandom;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.AuthenticationException;
 
 /**
  * Base implementation for token services that uses random values to generate tokens. Only the persistence mechanism

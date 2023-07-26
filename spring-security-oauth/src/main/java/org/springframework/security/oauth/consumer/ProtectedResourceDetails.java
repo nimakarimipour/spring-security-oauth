@@ -16,9 +16,8 @@
 
 package org.springframework.security.oauth.consumer;
 
-import org.springframework.security.oauth.common.signature.SignatureSecret;
-
 import java.util.Map;
+import org.springframework.security.oauth.common.signature.SignatureSecret;
 
 /**
  * Details about a protected resource.

@@ -16,11 +16,10 @@
 
 package org.springframework.security.oauth.provider;
 
-import org.springframework.security.oauth.common.signature.SignatureSecret;
-import org.springframework.security.core.GrantedAuthority;
-
 import java.io.Serializable;
 import java.util.List;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.oauth.common.signature.SignatureSecret;
 
 /**
  * Provides core OAuth consumer information.

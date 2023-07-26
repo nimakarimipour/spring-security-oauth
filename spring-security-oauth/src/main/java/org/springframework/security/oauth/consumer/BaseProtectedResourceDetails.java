@@ -17,7 +17,6 @@
 package org.springframework.security.oauth.consumer;
 
 import java.util.Map;
-
 import org.springframework.security.oauth.common.signature.HMAC_SHA1SignatureMethod;
 import org.springframework.security.oauth.common.signature.SignatureSecret;
 

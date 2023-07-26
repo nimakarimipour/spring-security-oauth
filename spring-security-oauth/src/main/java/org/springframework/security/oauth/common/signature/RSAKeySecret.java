@@ -16,18 +16,17 @@
 
 package org.springframework.security.oauth.common.signature;
 
-import org.apache.commons.codec.binary.Base64;
-
-import java.security.PrivateKey;
-import java.security.PublicKey;
+import java.io.UnsupportedEncodingException;
 import java.security.KeyFactory;
 import java.security.NoSuchAlgorithmException;
+import java.security.PrivateKey;
+import java.security.PublicKey;
 import java.security.cert.X509Certificate;
 import java.security.spec.EncodedKeySpec;
-import java.security.spec.X509EncodedKeySpec;
 import java.security.spec.InvalidKeySpecException;
 import java.security.spec.PKCS8EncodedKeySpec;
-import java.io.UnsupportedEncodingException;
+import java.security.spec.X509EncodedKeySpec;
+import org.apache.commons.codec.binary.Base64;
 
 /**
  * Signature secret for RSA.

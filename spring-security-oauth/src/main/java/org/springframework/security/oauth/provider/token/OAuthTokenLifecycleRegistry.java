@@ -1,8 +1,7 @@
 package org.springframework.security.oauth.provider.token;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 import java.util.Collection;
+import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * Interface for a registry of token lifecycle listeners.

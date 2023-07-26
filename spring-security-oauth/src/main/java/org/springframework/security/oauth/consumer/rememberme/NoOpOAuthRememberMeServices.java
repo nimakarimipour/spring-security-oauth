@@ -1,10 +1,9 @@
 package org.springframework.security.oauth.consumer.rememberme;
 
-import org.springframework.security.oauth.consumer.OAuthConsumerToken;
-
+import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.Map;
+import org.springframework.security.oauth.consumer.OAuthConsumerToken;
 
 /**
  * Basic, no-op implementation of the remember-me services. Not very useful in a 3-legged OAuth flow, but for a 2-legged

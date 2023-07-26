@@ -16,9 +16,8 @@
 
 package org.springframework.security.oauth.provider;
 
-import org.springframework.security.authentication.AbstractAuthenticationToken;
-
 import java.util.Map;
+import org.springframework.security.authentication.AbstractAuthenticationToken;
 
 /**
  * Authentication for an OAuth consumer.

@@ -1,12 +1,11 @@
 package org.springframework.security.oauth.common;
 
-import org.springframework.util.StringUtils;
-import org.springframework.util.Assert;
-
-import java.util.HashMap;
-import java.util.Map;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import org.springframework.util.Assert;
+import org.springframework.util.StringUtils;
 
 /**
  * Provides several <code>String</code> manipulation methods. Copied from deleted org.springframework.security.util.StringSplitUtils

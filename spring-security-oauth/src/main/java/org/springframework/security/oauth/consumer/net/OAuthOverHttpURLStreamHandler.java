@@ -16,16 +16,15 @@
 
 package org.springframework.security.oauth.consumer.net;
 
-import org.springframework.security.oauth.consumer.OAuthConsumerToken;
-import org.springframework.security.oauth.consumer.ProtectedResourceDetails;
-import org.springframework.security.oauth.consumer.OAuthConsumerSupport;
-
 import java.io.IOException;
+import java.net.HttpURLConnection;
 import java.net.Proxy;
 import java.net.URL;
 import java.net.URLConnection;
-import java.net.HttpURLConnection;
 import java.util.Map;
+import org.springframework.security.oauth.consumer.OAuthConsumerSupport;
+import org.springframework.security.oauth.consumer.OAuthConsumerToken;
+import org.springframework.security.oauth.consumer.ProtectedResourceDetails;
 
 /**
  * Stream handler to handle the request stream to a protected resource over HTTP.

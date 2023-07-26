@@ -19,13 +19,10 @@ package org.springframework.security.oauth.common.signature;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
-
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
 import java.util.Arrays;
-
 import javax.crypto.spec.SecretKeySpec;
-
 import org.junit.Test;
 import org.springframework.security.oauth.provider.token.OAuthProviderTokenImpl;
 

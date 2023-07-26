@@ -18,18 +18,14 @@ package net.oauth.signature;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
-
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-
 import javax.crypto.spec.SecretKeySpec;
 import javax.servlet.http.HttpServletRequest;
-
 import net.oauth.OAuthMessage;
 import net.oauth.server.OAuthServlet;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;

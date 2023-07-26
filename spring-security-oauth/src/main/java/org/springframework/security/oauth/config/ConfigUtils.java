@@ -3,7 +3,6 @@ package org.springframework.security.oauth.config;
 import java.lang.reflect.Method;
 import java.util.Collections;
 import java.util.List;
-
 import org.springframework.beans.BeanMetadataElement;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.BeanReference;

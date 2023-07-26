@@ -17,9 +17,7 @@
 package org.springframework.security.oauth.common.signature;
 
 import static org.junit.Assert.assertEquals;
-
 import javax.crypto.spec.SecretKeySpec;
-
 import org.junit.Test;
 
 /**

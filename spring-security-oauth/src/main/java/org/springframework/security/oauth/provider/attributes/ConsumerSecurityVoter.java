@@ -16,14 +16,13 @@
 
 package org.springframework.security.oauth.provider.attributes;
 
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.GrantedAuthority;
+import java.util.Collection;
+import java.util.List;
 import org.springframework.security.access.AccessDecisionVoter;
 import org.springframework.security.access.ConfigAttribute;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.oauth.provider.OAuthAuthenticationDetails;
-
-import java.util.List;
-import java.util.Collection;
 
 /**
  * <p>

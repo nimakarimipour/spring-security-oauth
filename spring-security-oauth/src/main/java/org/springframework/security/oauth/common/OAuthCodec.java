@@ -16,11 +16,10 @@
 
 package org.springframework.security.oauth.common;
 
-import org.apache.commons.codec.DecoderException;
-import org.apache.commons.codec.net.URLCodec;
-
 import java.io.UnsupportedEncodingException;
 import java.util.BitSet;
+import org.apache.commons.codec.DecoderException;
+import org.apache.commons.codec.net.URLCodec;
 
 /**
  * Utility for parameter encoding according to the OAuth spec.

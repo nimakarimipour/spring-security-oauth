@@ -16,15 +16,14 @@
 
 package org.springframework.security.oauth.provider.attributes;
 
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.security.access.ConfigAttribute;
 import org.springframework.security.access.method.AbstractFallbackMethodSecurityMetadataSource;
-import org.springframework.core.annotation.AnnotationUtils;
-
-import java.util.Collection;
-import java.util.ArrayList;
-import java.util.List;
-import java.lang.reflect.Method;
-import java.lang.annotation.Annotation;
 
 /**
  * <p>

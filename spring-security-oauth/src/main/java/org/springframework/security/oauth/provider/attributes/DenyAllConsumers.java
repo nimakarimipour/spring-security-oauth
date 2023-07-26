@@ -16,10 +16,10 @@
 
 package org.springframework.security.oauth.provider.attributes;
 
-import java.lang.annotation.Target;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 /**
  * Annotation used to specify that a method is to be denied to all OAuth consumers.

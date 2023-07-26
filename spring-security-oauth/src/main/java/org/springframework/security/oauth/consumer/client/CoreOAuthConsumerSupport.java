@@ -16,6 +16,31 @@
 
 package org.springframework.security.oauth.consumer.client;
 
+import static org.springframework.security.oauth.common.OAuthCodec.oauthEncode;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.UnsupportedEncodingException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.ProtocolException;
+import java.net.Proxy;
+import java.net.ProxySelector;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.net.URLDecoder;
+import java.net.URLEncoder;
+import java.net.URLStreamHandler;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.StringTokenizer;
+import java.util.TreeMap;
+import java.util.TreeSet;
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -40,12 +65,6 @@ import org.springframework.security.oauth.consumer.net.OAuthURLStreamHandlerFact
 import org.springframework.security.oauth.consumer.nonce.NonceFactory;
 import org.springframework.security.oauth.consumer.nonce.UUIDNonceFactory;
 import org.springframework.util.Assert;
-
-import java.io.*;
-import java.net.*;
-import java.util.*;
-
-import static org.springframework.security.oauth.common.OAuthCodec.oauthEncode;
 
 /**
  * Consumer-side support for OAuth. This support uses a {@link java.net.URLConnection} to interface with the

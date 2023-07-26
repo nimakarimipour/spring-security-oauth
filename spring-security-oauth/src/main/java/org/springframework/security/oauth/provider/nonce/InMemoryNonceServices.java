@@ -18,7 +18,6 @@ package org.springframework.security.oauth.provider.nonce;
 
 import java.util.Iterator;
 import java.util.TreeSet;
-
 import org.springframework.security.authentication.CredentialsExpiredException;
 import org.springframework.security.oauth.provider.ConsumerDetails;
 

@@ -1,9 +1,8 @@
 package org.springframework.security.oauth.provider.verifier;
 
-import org.springframework.beans.factory.InitializingBean;
-
 import java.security.SecureRandom;
 import java.util.Random;
+import org.springframework.beans.factory.InitializingBean;
 
 /**
  * Basic implementation of the verifier services that creates a random-value verifier and stores it in an in-memory map.

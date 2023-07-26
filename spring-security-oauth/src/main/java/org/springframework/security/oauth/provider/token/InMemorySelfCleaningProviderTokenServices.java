@@ -16,13 +16,12 @@
 
 package org.springframework.security.oauth.provider.token;
 
-import org.springframework.beans.factory.DisposableBean;
-
 import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
+import org.springframework.beans.factory.DisposableBean;
 
 /**
  * Implementation of TokenServices that stores tokens in memory. The token services will schedule a thread to do cleaning up of expired tokens.

@@ -16,6 +16,11 @@
 
 package org.springframework.security.oauth.provider.filter;
 
+import java.io.IOException;
+import java.util.Map;
+import javax.servlet.FilterChain;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth.common.OAuthCodec;
@@ -25,12 +30,6 @@ import org.springframework.security.oauth.provider.ConsumerAuthentication;
 import org.springframework.security.oauth.provider.ConsumerDetails;
 import org.springframework.security.oauth.provider.InvalidOAuthParametersException;
 import org.springframework.security.oauth.provider.token.OAuthProviderToken;
-
-import javax.servlet.FilterChain;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.util.Map;
 
 /**
  * Processing filter for handling a request for an OAuth token. The default implementation assumes a request for a new

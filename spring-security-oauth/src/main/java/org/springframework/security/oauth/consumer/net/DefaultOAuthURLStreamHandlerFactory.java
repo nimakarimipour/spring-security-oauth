@@ -16,12 +16,11 @@
 
 package org.springframework.security.oauth.consumer.net;
 
-import org.springframework.security.oauth.consumer.OAuthConsumerToken;
-import org.springframework.security.oauth.consumer.ProtectedResourceDetails;
-import org.springframework.security.oauth.consumer.OAuthConsumerSupport;
-
 import java.net.URLStreamHandler;
 import java.util.Map;
+import org.springframework.security.oauth.consumer.OAuthConsumerSupport;
+import org.springframework.security.oauth.consumer.OAuthConsumerToken;
+import org.springframework.security.oauth.consumer.ProtectedResourceDetails;
 
 /**
  * Default implementation.  Assumes we're running on Sun's JVM.

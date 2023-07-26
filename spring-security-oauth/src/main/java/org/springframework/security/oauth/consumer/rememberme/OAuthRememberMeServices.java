@@ -1,10 +1,9 @@
 package org.springframework.security.oauth.consumer.rememberme;
 
-import org.springframework.security.oauth.consumer.OAuthConsumerToken;
-
+import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.Map;
+import org.springframework.security.oauth.consumer.OAuthConsumerToken;
 
 /**
  * Services for "remembering" the access tokens that have been obtained.
