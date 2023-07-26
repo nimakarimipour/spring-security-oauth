@@ -1,5 +1,6 @@
 package org.springframework.security.oauth.consumer.rememberme;
 
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 import java.util.HashMap;
 import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
@@ -20,7 +21,7 @@ import org.springframework.security.oauth.consumer.OAuthConsumerToken;
 @Deprecated
 public class HttpSessionOAuthRememberMeServices implements OAuthRememberMeServices {
 
-	public static final String REMEMBERED_TOKENS_KEY = HttpSessionOAuthRememberMeServices.class.getName()
+	public static final @RUntainted String REMEMBERED_TOKENS_KEY = HttpSessionOAuthRememberMeServices.class.getName()
 			+ "#REMEMBERED_TOKENS";
 
 	private boolean storeAccessTokens = true;

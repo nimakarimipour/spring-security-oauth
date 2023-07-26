@@ -18,7 +18,6 @@ package org.springframework.security.oauth.consumer.rememberme;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.mock.web.MockHttpServletRequest;

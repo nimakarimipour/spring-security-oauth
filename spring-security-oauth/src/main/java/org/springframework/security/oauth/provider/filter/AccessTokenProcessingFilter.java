@@ -16,6 +16,7 @@
 
 package org.springframework.security.oauth.provider.filter;
 
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 import java.io.IOException;
 import java.util.Map;
 import javax.servlet.FilterChain;
@@ -46,7 +47,7 @@ public class AccessTokenProcessingFilter extends OAuthProviderProcessingFilter {
   // The OAuth spec doesn't specify a content-type of the response.  However, it's NOT
   // "application/x-www-form-urlencoded" because the response isn't URL-encoded. Until
   // something is specified, we'll assume that it's just "text/plain".
-  private String responseContentType = "text/plain;charset=utf-8";
+  private @RUntainted String responseContentType = "text/plain;charset=utf-8";
 
   private boolean require10a = true;
 
@@ -111,7 +112,7 @@ public class AccessTokenProcessingFilter extends OAuthProviderProcessingFilter {
    *
    * @return The content type of the response.
    */
-  public String getResponseContentType() {
+  public @RUntainted String getResponseContentType() {
     return responseContentType;
   }
 

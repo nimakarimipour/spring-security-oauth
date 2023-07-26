@@ -18,14 +18,11 @@ package org.springframework.security.oauth.provider;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
-
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-
 import javax.servlet.http.HttpServletRequest;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;

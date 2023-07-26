@@ -15,16 +15,12 @@
  */
 package org.springframework.security.oauth.provider.filter;
 
-import org.junit.Test;
-import org.springframework.security.oauth.provider.filter.UserAuthorizationProcessingFilter;
-import org.springframework.security.oauth.provider.filter.UserAuthorizationSuccessfulAuthenticationHandler;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+import org.junit.Test;
 import org.springframework.security.web.RedirectStrategy;
 
 /**

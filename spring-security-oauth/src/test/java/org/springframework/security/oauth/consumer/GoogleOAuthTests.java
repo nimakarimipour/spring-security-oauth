@@ -1,7 +1,6 @@
 package org.springframework.security.oauth.consumer;
 
 import java.util.HashMap;
-
 import org.junit.Test;
 import org.springframework.security.oauth.common.signature.HMAC_SHA1SignatureMethod;
 import org.springframework.security.oauth.common.signature.SharedConsumerSecretImpl;

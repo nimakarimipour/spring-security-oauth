@@ -1,9 +1,7 @@
 package org.springframework.security.oauth.provider.nonce;
 
 import static org.junit.Assert.assertEquals;
-
 import java.util.UUID;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.security.authentication.CredentialsExpiredException;
