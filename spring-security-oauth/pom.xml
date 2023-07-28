@@ -73,11 +73,11 @@
 								<arg>-Awarns</arg>
 								<arg>-AannotatedPackages=org.springframework.security.oauth</arg>
 								<arg>-AenableCustomCheck</arg>
-								<arg>-AenableSerialization</arg>
+<!--								<arg>-AenableSerialization</arg>-->
 								<arg>-AserializationConfigPath=/tmp/ucr-tainting/spring-security-oauth/taint.xml</arg>
 								<arg>-XDcompilePolicy=simple</arg>
 								<arg>-parameters</arg>
-								<arg>-Xplugin:ErrorProne -XepDisableAllChecks -Xep:AnnotatorScanner:ERROR -XepOpt:AnnotatorScanner:ConfigPath=/tmp/ucr-tainting/spring-security-oauth/scanner.xml</arg>
+<!--								<arg>-Xplugin:ErrorProne -XepDisableAllChecks -Xep:AnnotatorScanner:ERROR -XepOpt:AnnotatorScanner:ConfigPath=/tmp/ucr-tainting/spring-security-oauth/scanner.xml</arg>-->
 							</compilerArgs>
 						</configuration>
 					</plugin>
