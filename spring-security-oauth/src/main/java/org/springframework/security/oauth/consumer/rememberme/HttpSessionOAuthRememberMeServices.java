@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import org.springframework.security.oauth.consumer.OAuthConsumerToken;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Default implementation of the OAuth2 rememberme services. Just stores everything in the session by default. Storing
@@ -20,7 +21,7 @@ import org.springframework.security.oauth.consumer.OAuthConsumerToken;
 @Deprecated
 public class HttpSessionOAuthRememberMeServices implements OAuthRememberMeServices {
 
-	public static final String REMEMBERED_TOKENS_KEY = HttpSessionOAuthRememberMeServices.class.getName()
+	public static final @RUntainted String REMEMBERED_TOKENS_KEY = HttpSessionOAuthRememberMeServices.class.getName()
 			+ "#REMEMBERED_TOKENS";
 
 	private boolean storeAccessTokens = true;

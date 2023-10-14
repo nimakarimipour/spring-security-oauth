@@ -2,3 +2,57 @@
 
 2023-10-14T12:19:58.628393:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl core -Drat.skip=true -Dcheckstyle.skip
 
+2023-10-14T12:22:16.963316:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:22:21.982282:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:22:27.311638:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:22:32.266198:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:22:37.309291:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:22:42.303414:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:22:47.459123:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:22:52.433003:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:22:57.468786:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:23:02.679696:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:23:08.206874:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:23:13.476820:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:23:18.850962:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:23:24.359879:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:23:29.994561:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:23:35.584496:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:23:41.496250:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:23:47.389799:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:23:53.343847:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:23:59.293479:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:24:05.186110:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:24:11.173529:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:24:17.073479:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:24:22.913681:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:24:28.868555:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:24:34.810674:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:24:40.600378:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl spring-security-oauth -Drat.skip=true -Dcheckstyle.skip
+

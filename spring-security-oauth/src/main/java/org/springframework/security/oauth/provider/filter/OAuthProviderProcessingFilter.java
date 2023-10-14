@@ -61,6 +61,7 @@ import org.springframework.security.oauth.provider.nonce.OAuthNonceServices;
 import org.springframework.security.oauth.provider.token.OAuthProviderToken;
 import org.springframework.security.oauth.provider.token.OAuthProviderTokenServices;
 import org.springframework.util.Assert;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * OAuth processing filter. This filter should be applied to requests for OAuth protected resources (see OAuth Core 1.0).

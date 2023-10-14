@@ -59,6 +59,7 @@ import org.springframework.security.web.savedrequest.DefaultSavedRequest;
 import org.springframework.security.web.util.ThrowableAnalyzer;
 import org.springframework.security.web.util.ThrowableCauseExtractor;
 import org.springframework.util.Assert;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * OAuth filter that establishes an OAuth security context.

@@ -23,6 +23,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.oauth.common.signature.UnsupportedSignatureMethodException;
 import org.springframework.security.web.AuthenticationEntryPoint;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Entry point for OAuth authentication requests.

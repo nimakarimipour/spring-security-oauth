@@ -18,6 +18,7 @@ package org.springframework.security.oauth.consumer.token;
 
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.oauth.consumer.OAuthConsumerToken;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Token services for an OAuth consumer.
