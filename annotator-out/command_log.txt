@@ -1,0 +1,4 @@
+2023-10-14T12:19:58.012146:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl core -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T12:19:58.628393:cd /home/nima/Developer/taint-benchmarks/spring-security-oauth && mvn clean compile -pl core -Drat.skip=true -Dcheckstyle.skip
+
